@@ -2,7 +2,6 @@ name: Validate Instrument
 
 on:
   pull_request:
-    paths: ['assessments/**']
   push:
     branches: [main]
 
@@ -17,5 +16,10 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install jsonschema pyyaml
+      - name: Fetch umbrella schema
+        run: |
+          curl -sSL https://raw.githubusercontent.com/Assessment-Models/dea-catalog-assessment-tools/main/schemas/instrument.schema.json -o /tmp/instrument.schema.json
+      - name: Level 1 — structural validation
+        run: python3 scripts/check_structure.py
       - name: Validate instrument YAML
         run: python3 scripts/validate.py
