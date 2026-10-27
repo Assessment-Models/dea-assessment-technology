@@ -10,7 +10,7 @@ description: >-
   EA assessment instrument for the technology domain: stack fitness,
   technical debt, lifecycle management, skill coverage. Scores against the
   dea:maturity-technology model.
-version: 1.0.0-alpha
+version: 1.1.0-alpha
 conformance:
   contract:
     id: opendea-assessment-metamodel
