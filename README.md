@@ -17,7 +17,7 @@ This repository contains one assessment instrument for the **technology** domain
 | **Facilitator required** | No |
 | **Maturity target** | `dea:maturity-technology` |
 | **Owner** | CTO / Platform Engineering |
-| **Version** | 1.0.0-alpha |
+| **Version** | 1.1.0-alpha |
 
 ---
 

@@ -1,7 +1,7 @@
 id:                  dea:assessment-technology
 name:                Technology Assessment
 domain:              technology
-version:             "1.0.0-alpha"
+version:             "1.1.0-alpha"
 metamodel_version:   "^0.1.0"
 status:              draft
 description: >
