@@ -12,7 +12,7 @@ This repository contains one assessment instrument for the **technology** domain
 |------|-------|
 | **Domain** | `technology` |
 | **Dimensions** | 5 |
-| **Total questions** | 19 |
+| **Total questions** | 18 |
 | **Typical duration** | ~75 minutes |
 | **Facilitator required** | No |
 | **Maturity target** | `dea:maturity-technology` |

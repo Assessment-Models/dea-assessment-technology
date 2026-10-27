@@ -1,0 +1,25 @@
+# CR-AM-11 §15 contract handshake — Technology assessment instrument.
+# Declared against the OpenDEA assessment metamodel contract suite (alias:
+# opendea-assessment-metamodel), resolved by the reusable Level 2 workflow
+# Assessment-Models/assessment-ci/.github/workflows/contract-conformance.yml
+# against the pinned dea-metamodel release.
+id: dea-assessment-technology
+type: assessment-model
+name: Technology Assessment
+description: >-
+  EA assessment instrument for the technology domain: stack fitness,
+  technical debt, lifecycle management, skill coverage. Scores against the
+  dea:maturity-technology model.
+version: 1.0.0-alpha
+conformance:
+  contract:
+    id: opendea-assessment-metamodel
+  source:
+    organization: technehub-labs
+    repository: dea-metamodel
+  version: "1.0"
+dependencies:
+  - id: dea-catalog-assessment-tools
+    reference: v1.0.0-alpha
+  - id: dea-catalog-maturity-models
+    reference: fa2f9d57b75227a65d052fa13f426171c1cd295c
