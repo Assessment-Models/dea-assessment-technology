@@ -1,0 +1,23 @@
+{
+  "id": "dea-assessment-technology",
+  "title": "Technology Assessment",
+  "layer": "assessment-model",
+  "architectural_concern": "Technology",
+  "version": "v1.1.0-alpha",
+  "license": "MIT",
+  "conformance_status": "registered",
+  "standards_alignment": [
+    "OpenDEA"
+  ],
+  "locales": [
+    "en"
+  ],
+  "dimensions": [
+    "Stack Fitness & Standardisation",
+    "Technical Debt Management",
+    "Lifecycle & End-of-Life Management",
+    "Skill Coverage & Knowledge Risk",
+    "Tooling Integration & Observability"
+  ],
+  "description": "EA assessment instrument for the technology domain: stack fitness, technical debt, lifecycle management, skill coverage. Scores against the dea:maturity-technology model."
+}
